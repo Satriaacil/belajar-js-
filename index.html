@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <h1>Program Penjumlahan</h1>
+            <input type="number" id="addAngka1" placeholder="Masukkan Angka 1">
+            <input type="number" id="addAngka2" placeholder="Masukkan Angka 2">
+            <button onclick="calculateSum()">Submit</button>
+            <div class="result" id="addResult"></div>
+        </div>
+
+        <div class="container">
+            <h1>Program Pengurangan</h1>
+            <input type="number" id="subAngka1" placeholder="Masukkan Angka 1">
+            <input type="number" id="subAngka2" placeholder="Masukkan Angka 2">
+            <button onclick="calculateDifference()">Submit</button>
+            <div class="result" id="subResult"></div>
+        </div>
+
+        <div class="container">
+            <h1>Program Pembagian</h1>
+            <input type="number" id="divAngka1" placeholder="Masukkan Angka 1">
+            <input type="number" id="divAngka2" placeholder="Masukkan Angka 2">
+            <button onclick="calculateDivision()">Submit</button>
+            <div class="result" id="divResult"></div>
+        </div>
+
+        <div class="container">
+            <h1>Program Perkalian</h1>
+            <input type="number" id="mulAngka1" placeholder="Masukkan Angka 1">
+            <input type="number" id="mulAngka2" placeholder="Masukkan Angka 2">
+            <button onclick="calculateMultiplication()">Submit</button>
+            <div class="result" id="mulResult"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
